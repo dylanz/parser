@@ -1,0 +1,10 @@
+[package]
+name = "gurnal"
+version = "0.1.0"
+authors = ["Dylan Stamat <dylan@xenon.io>"]
+
+[dependencies]
+regex = "0.2.3"
+
+[[bin]]
+name = "parser"

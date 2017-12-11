@@ -1,0 +1,21 @@
+Syntax to support:
+https://s3-us-west-2.amazonaws.com/followup-public/FollowUp-Cheat-Sheet.pdf
+
+Print during rust tests:
+https://medium.com/@ericdreichert/how-to-print-during-rust-tests-619bdc7ccebc
+
+Testing in rust:
+http://sireliah.com/niusy/testing_in_rust/
+
+Timezones:
+https://github.com/chronotope/chrono-tz/
+
+
+// Thanks to `iter_mut`, mutable `Vector`s can also be iterated
+// over in a way that allows modifying each value
+for x in xs.iter_mut() {
+  *x *= 3;
+}
+
+Vector allocation:
+http://markusjais.com/unterstanding-rusts-vec-and-its-capacity-for-fast-and-efficient-programs/
